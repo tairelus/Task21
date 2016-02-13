@@ -105,7 +105,7 @@ public class ComputerStore {
         String computerClass = computer.getComputerClass();
 
         switch (computerClass) {
-            case "Desktop":
+            case "Desktop": //use instanceof keyword instead
                 desktopComputers.put(computer.getArticle(), (Desktop)computer);
                 break;
             case "Laptop":
